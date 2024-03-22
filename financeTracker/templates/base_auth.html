@@ -20,10 +20,13 @@
 
     <div class="container-fluid">
       <div class="row">
-        {% include 'partials/_sidebar.html' %}
+        {% comment %} {% include 'partials/_sidebar.html' %} {% endcomment %}
 
         <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
-          {% block content %} {% endblock %}
+          {% block content %} 
+          
+          
+          {% endblock %}
         </main>
       </div>
     </div>
